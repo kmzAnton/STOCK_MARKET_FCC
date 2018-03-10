@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%include ../partials/head.ejs%>
+    <link rel = "stylesheet" href="/style_stock.css">
+  </head>
+  <body>
+    <div class=" container-fluid">
+      <div class="row">
+        <div class="col-sm-2 side_col">
+          
+        </div>
+        
+        <div class="col-sm-8 middle_col">
+          <div class="col-sm-12 stock">
+            <div class="col-sm-12 graph" id="graph">
+              
+            </div>
+            <div class="col-sm-12 buttons">
+              <div class="row">
+                <div class="col-sm-8">
+                  <div class="row" id="buttons">
+                    
+                  </div>  
+                </div>
+                <div class="col-sm-4">
+                  <div class="for_input">
+<!--                     <form> -->
+                      <input id="new_stock" type="text" class="form-control" placeholder="stock symbol...">
+                      <div class="row justify-content-end">
+                        <button id="add_stock" class="btn btn-sm btn-block btn-secondary">Add new stock</button>  
+                      </div>
+<!--                     </form> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 footer" id="footer">
+            
+          </div>
+        </div>
+        
+        <div class="col-sm-2 side_col">
+          
+        </div>
+      </div>
+    </div>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous">
+    </script>
+    <script src="client.js"></script>
+  </body>
+</html>
