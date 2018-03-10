@@ -1,0 +1,34 @@
+.for_input .row{
+  margin: 0;
+  margin-top: 10px;
+}
+.buttons {
+  padding-bottom: 25px;
+}
+.col-sm-4{
+  margin-bottom: 5px;
+}
+.btn-outline-info {
+  border-radius: 1px;
+  z-index:10500;
+}
+.graph{
+  padding: 25px 15px;
+}
+
+.middle_col{
+  padding: 60px 10px 20px;
+}
+.stock{
+  min-height: 300px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius:2px;
+  -webkit-box-shadow: 1px 1px 6px 0px rgba(230,230,230,1);
+  -moz-box-shadow: 1px 1px 6px 0px rgba(230,230,230,1);
+  box-shadow: 1px 1px 6px 0px rgba(230,230,230,1);
+}
+
+body {
+  background-color: #EBF5FB;
+}
